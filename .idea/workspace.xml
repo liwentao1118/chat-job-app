@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aabb5f64-fe8c-4f86-9b54-c3188e7b43b9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/server/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/authroute/authroute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/authroute/authroute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user.redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user.redux.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,16 +24,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="437">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/container/login/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
@@ -45,8 +45,8 @@
       <file leaf-file-name="authroute.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/authroute/authroute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="416">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -75,8 +75,8 @@
       <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/container/register/register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="93" />
+            <state relative-caret-position="975">
+              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -87,8 +87,8 @@
       <file leaf-file-name="user.redux.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/user.redux.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="275">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -153,14 +153,14 @@
         <option value="$PROJECT_DIR$/src/reducer.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/component/authroute/authroute.js" />
         <option value="$PROJECT_DIR$/server/model.js" />
         <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/src/redux/util.js" />
         <option value="$PROJECT_DIR$/src/container/register/register.js" />
-        <option value="$PROJECT_DIR$/server/user.js" />
-        <option value="$PROJECT_DIR$/src/redux/user.redux.js" />
         <option value="$PROJECT_DIR$/src/container/login/login.js" />
+        <option value="$PROJECT_DIR$/src/redux/user.redux.js" />
+        <option value="$PROJECT_DIR$/src/component/authroute/authroute.js" />
+        <option value="$PROJECT_DIR$/server/user.js" />
       </list>
     </option>
   </component>
@@ -361,16 +361,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533177360942</updated>
-      <workItem from="1533177365841" duration="48952000" />
+      <workItem from="1533177365841" duration="52173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48952000" />
+    <option name="totallyTimeSpent" value="52173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -382,10 +381,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3296593" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3296593" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14761905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14761905" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -518,16 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/authroute/authroute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -556,6 +545,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -563,37 +559,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/user.js">
+    <entry file="file://$PROJECT_DIR$/src/container/register/register.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="975">
+          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/user.redux.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/register/register.js">
+    <entry file="file://$PROJECT_DIR$/src/component/authroute/authroute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="93" />
+        <state relative-caret-position="416">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/login/login.js">
+    <entry file="file://$PROJECT_DIR$/server/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="437">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>

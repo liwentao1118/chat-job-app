@@ -3,6 +3,7 @@ const Router = express.Router()
 const model= require('./model')
 const User = model.getModel('user')
 const utils  = require('utility')
+const _filter = {'pwd':0,'__v':0}
 
 
 Router.get('/list',async(req,res)=>{
@@ -11,10 +12,12 @@ Router.get('/list',async(req,res)=>{
 })
 Router.post('/login',async(req,res)=>{
     const {user,pwd} = req.body
-    let result = await User.findOne({user,pwd:md5Pwd(pwd)},{'pwd':0});
+    let result = await User.findOne({user,pwd:md5Pwd(pwd)},_filter);
     if (!result){
         res.json({code:1,msg:'用户名或者密码错误'})
     }
+    console.log(result)
+    res.cookie('userid',result._id)
     res.json({code:0,data:result})
 })
 Router.post('/register',async(req,res)=>{
@@ -26,11 +29,23 @@ Router.post('/register',async(req,res)=>{
         res.json({code:1,msg:'用户名重复'})
     }
     let result = await User.create({user,pwd:md5Pwd(pwd),type});
-     res.json({code:0})
+    if (result){
+        const {user,type,_id} = result
+        res.cookie('userid',_id)
+        res.json({code:0,data:{user,type,_id}})
+    }
+
     console.log(result)
 })
-Router.get('/info',(req,res)=>{
-      res.json({code:1})
+Router.get('/info',async(req,res)=>{
+    const {userid} = req.cookies
+    if (!userid){
+        res.json({code:1})
+    }
+    let result = await User.findOne({_id: userid},_filter);
+    res.json({code:0,data:result})
+
+
 })
 
 function md5Pwd(pwd){
