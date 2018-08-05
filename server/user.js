@@ -9,6 +9,14 @@ Router.get('/list',async(req,res)=>{
    let userList = await User.find();
    res.json(userList)
 })
+Router.post('/login',async(req,res)=>{
+    const {user,pwd} = req.body
+    let result = await User.findOne({user,pwd:md5Pwd(pwd)},{'pwd':0});
+    if (!result){
+        res.json({code:1,msg:'用户名或者密码错误'})
+    }
+    res.json({code:0,data:result})
+})
 Router.post('/register',async(req,res)=>{
     console.log(req.body)
     const{user,pwd,type} = req.body
